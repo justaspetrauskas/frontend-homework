@@ -1,0 +1,6 @@
+.calculator-header--wrapper {
+  @apply px-6 flex min-h-[40px]
+  rounded-t-[14px]
+  flex-row bg-sauce-emerald-light py-2 
+  items-center gap-x-3 justify-start border-b border-black/25;
+}

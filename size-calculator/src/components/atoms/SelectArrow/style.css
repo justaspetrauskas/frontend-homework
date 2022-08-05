@@ -1,0 +1,11 @@
+.select-input-arrow {
+  @apply px-2 bg-white absolute right-0
+  cursor-pointer h-full;
+}
+.select-input-arrow > svg {
+  @apply rotate-0 transition duration-150;
+}
+
+.select-input-arrow--active > svg {
+  @apply rotate-180;
+}

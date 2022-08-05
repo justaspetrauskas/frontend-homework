@@ -1,0 +1,4 @@
+.calculator-wrapper {
+  @apply max-w-sm bg-sauce-light-grey border w-[19.5rem] h-[14.5rem]
+   border-black/25 rounded-[14px];
+}

@@ -1,0 +1,50 @@
+:root {
+  --darkGrey: #3f3f3f;
+  --fadedBlack: rgba(0, 0, 0, 0.25);
+  --lightTorquoise: #b8efe5;
+  --mediumTorquoise: #bbffef;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family: 'Inter', sans-serif; */
+
+@layer base {
+  body {
+    font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 12px;
+    color: var(--darkGrey);
+  }
+  P {
+    line-height: 14.52px;
+  }
+  h1 {
+    line-height: 48.41px;
+    font-size: 2.5rem;
+    display: inline-block;
+  }
+  input {
+    font-family: "Manrope", sans-serif;
+    line-height: 17.76px;
+    font-weight: 300;
+    color: var(--darkGrey);
+  }
+  input::placeholder {
+    color: var(--fadedBlack);
+  }
+
+  button {
+    font-family: "Manrope", sans-serif;
+    line-height: 16.39px;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 5%;
+  }
+}

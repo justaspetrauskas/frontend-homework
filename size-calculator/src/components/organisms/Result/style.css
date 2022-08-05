@@ -1,0 +1,3 @@
+.result-body span {
+  @apply mx-2 flex-1;
+}
